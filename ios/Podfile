@@ -1,0 +1,9 @@
+platform :ios, '9.3'
+target 'arDemo' do
+  use_frameworks!
+  pod ‘Fabric’
+  pod ‘Crashlytics’
+  pod 'ViroReact', :path => '../node_modules/react-viro/ios/'
+  pod 'ViroKit', :path => '../node_modules/react-viro/ios/dist/ViroRenderer/'
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler/ios'
+end
